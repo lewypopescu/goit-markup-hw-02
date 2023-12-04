@@ -8,7 +8,7 @@
   --corn-flower-colour: #E7E9FC;
 }
 
-body {
+.body {
   font-family: "Roboto", sans-serif;
   color: var(--slate-colour);
   background-color: var(--white-colour);
@@ -17,25 +17,44 @@ body {
 
 }
 
+.list {
+list-style: none;
+}
+
+.logo {
+font-family: "Raleway", sans-serif;
+line-height: 1.17;
+color: var(--iris-colour);
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+letter-spacing: 0.54px;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-colour);
+}
+.link:hover {
+    color: var(--ocean-colour);
+}
+.link:focus {
+    color: var(--ocean-colour);
+}
+
 .upper-case {
     text-transform: uppercase;
 }
 
-.web {
-color: var(--iris-colour);
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 800;
-line-height: 116.667%;
-letter-spacing: 0.54px;
-text-transform: uppercase;
-text-decoration: none;
-}
-
-.studio {
+.logo-dark-header {
 color: var(--navy-blue-colour);
-font-family: Raleway;
+font-family:"Raleway", sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 800;
@@ -45,7 +64,7 @@ text-transform: uppercase;
 text-decoration: none;
 }
 
-.r500 {
+.roboto-500 {
   color: var(--navy-blue-colour);
   font-family: Roboto;
   font-size: 16px;
@@ -56,7 +75,7 @@ text-decoration: none;
   text-decoration: none;
 }
 
-.r500portfolio {
+.r500-portfolio {
 color: var(--navy-blue-colour);
 font-family: Roboto;
 font-size: 20px;
@@ -67,7 +86,7 @@ letter-spacing: 0.4px;
 text-decoration: none;
 }
 
-.r400 {
+.roboto-400 {
   color: var(--slate-colour);
   font-family: Roboto;
   font-size: 16px;
@@ -78,7 +97,7 @@ text-decoration: none;
   text-decoration: none;
 }
 
-.r400portfolio {
+.r400-portfolio {
 color: var(--slate-colour);
 font-family: Roboto;
 font-size: 16px;
@@ -89,7 +108,7 @@ letter-spacing: 0.32px;
 text-decoration: none;
 }
 
-.r700titlu {
+.r700-titlu {
   color: var(--white-colour);
   text-align: center;
   font-family: Roboto;
@@ -101,14 +120,15 @@ text-decoration: none;
   text-decoration: none;
 }
 
-.r700titlumic {
+.r700-titlumic {
 color: var(--navy-blue-colour);
+background-color: var(--cloud-colour);
 text-align: center;
 font-family: Roboto;
-font-size: 36px;
+font-size: 20px;
 font-style: normal;
 font-weight: 700;
-line-height: 111.111%;
+line-height: 1.2;
 letter-spacing: 0.72px;
 text-transform: capitalize;
 text-decoration: none;
@@ -118,33 +138,35 @@ text-decoration: none;
   color: var(--white-colour);
   text-align: center;
   cursor: pointer;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 150%;
-  letter-spacing: 0.64px
-  backgroud: var(--iris-colour);
+  letter-spacing: 0.04em;
   text-decoration: none;
+  background-color: var(--iris-colour);
 }
-.button-os:hover;
+.button-os:hover {
+    background-color: var(--ocean-colour);
+}
 .button-os:focus {
     color: var(--white-colour);
-    background-color: var(--iris-colour);
+    background-color: var(--ocean-colour);
 }
 
 .button-all {
   color: var(--white-colour);
   text-align: center;
   cursor: pointer;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.64px
-  backgroud: var(--ocean-colour);
   text-decoration: none;
+  background-color: var(--ocean-colour);
 }
 .button-all:hover;
 .button-all:focus {
@@ -156,7 +178,7 @@ text-decoration: none;
 color: var(--iris-colour);
 text-align: center;
 cursor: pointer;
-font-family: Roboto;
+font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -173,11 +195,12 @@ text-decoration: none;
 
 .footer {
 color: var(--cloud-colour);
-font-family: Roboto;
+background-color: var(--navy-blue-colour);
+font-family: "Raleway", sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: 150%;
-letter-spacing: 0.32px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 text-decoration: none;
 }
