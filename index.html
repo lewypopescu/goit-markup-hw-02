@@ -3,225 +3,188 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Effective Solutions for Your Business" />
-    <meta name="keywords" content="Solutions, Business, Efficiency, Strategy" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Web Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>WebStudio</title>
   </head>
-  <body class="body">
+  <body>
     <header>
-      <!-- Navigation -->
-      <nav>
-        <a href="./index.html" class="logo link"
-          >Web<span class="logo-dark-header">Studio</span></a
+      <!--navigation bar-->
+      <nav class="main-navigation-container">
+        <!--logo-->
+        <a class="logo link" href="./index.html"
+          >Web<span class="logo-span-dark-header">Studio</span></a
         >
-        <ul>
+        <!--studio,portfolio,contacts-->
+        <ul class="navigation-list list">
+          <li><a class="nav-link link" href="./index.html">Studio</a></li>
           <li>
-            <a
-              href="./index.html"
-              class="roboto-cincisute-portfolio upper-case list"
-              >Studio</a
-            >
+            <a class="nav-link link" href="./portfolio.html">Portfolio</a>
           </li>
-          <li>
-            <a
-              href="./portfolio.html"
-              class="roboto-cincisute-portfolio upper-case list"
-              >Portfolio</a
-            >
-          </li>
-          <li>
-            <a
-              href="./contacts.html"
-              class="roboto-cincisute-portfolio upper-case list"
-              >Contacts</a
-            >
-          </li>
+          <li><a class="nav-link link" href="">Contacts</a></li>
         </ul>
       </nav>
-      <!-- Address contacts -->
-      <address>
-        <ul>
+      <!--contact address section-->
+      <address class="address-container">
+        <ul class="address-list list">
           <li>
-            <a
-              class="roboto-patrusute-portfolio list"
-              href="mailto:info@devstudio.com"
+            <a class="address-link link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="roboto-patrusute-portfolio list" href="tel:+110001111111"
+            <a class="address-link link" href="tel:+110001111111"
               >+11 (000) 111-11-11</a
             >
           </li>
         </ul>
       </address>
     </header>
-
-    <main>
-      <!-- Hero section -->
-      <section>
-        <h1 class="roboto-titlu">Solutions for Your Business</h1>
-        <button
-          class="button-os link"
-          style="align-items: flex-start"
-          type="button"
-        >
-          Order Service
-        </button>
+    <main class="main-container">
+      <!--hero image section-->
+      <section class="hero-image-section-container">
+        <h1 class="hero-image-header">Effective Solutions for Your Business</h1>
+        <button class="hero-image-button" type="button">Order Service</button>
       </section>
-
-      <!-- Points section -->
-      <section id="studio">
-        <h2 class="roboto-titlumic">What are we doing</h2>
-        <ul>
-          <li>
-            <h3 class="roboto-cincisute-portfolio">Strategy</h3>
-            <p class="roboto-patrusute-portfolio">
+      <!--section one list of qualities of Webstudio-->
+      <section class="first-section-container">
+        <h2 class="first-section-header" hidden>Qualities</h2>
+        <!--description of Webstudio-->
+        <ul class="first-section-list list">
+          <!--first trait-->
+          <li class="trait-container">
+            <h3 class="trait-header">Strategy</h3>
+            <p class="trait-description">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3 class="roboto-cincisute-portfolio">Punctuality</h3>
-            <p class="roboto-patrusute-portfolio">
+          <!--second trait-->
+          <li class="trait-container">
+            <h3 class="trait-header">Punctuality</h3>
+            <p class="trait-description">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3 class="roboto-cincisute-portfolio">Diligence</h3>
-            <p class="roboto-patrusute-portfolio">
+          <!--third trait-->
+          <li class="trait-container">
+            <h3 class="trait-header">Diligence</h3>
+            <p class="trait-description">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3 class="roboto-cincisute-portfolio">Technologies</h3>
-            <p class="roboto-patrusute-portfolio">
+          <!--fourth trait-->
+          <li class="trait-container">
+            <h3 class="trait-header">Technologies</h3>
+            <p class="trait-description">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
         </ul>
       </section>
-
-      <!-- What are we doing photos section -->
-      <section id="portfolio">
-        <h2 class="roboto-titlumic">What are we doing</h2>
-        <ul>
+      <!--section 2 with images-->
+      <section class="section-two-container">
+        <h2 class="section-two-header">What are we doing</h2>
+        <!--images for the second section-->
+        <ul class="sec-two-image-list list">
           <li>
             <img
+              class="image-section-two"
               src="./images/screen1.jpg"
-              alt="Screen Photo"
+              alt="Computer"
               width="360"
               height="300"
             />
           </li>
           <li>
             <img
+              class="image-section-two"
               src="./images/whatsapp1.jpg"
-              alt="WhatsApp Photo"
+              alt="Smartphones"
               width="360"
               height="300"
             />
           </li>
           <li>
             <img
+              class="image-section-two"
               src="./images/phone1.jpg"
-              alt="Phone Photo"
+              alt="Display-image"
               width="360"
               height="300"
             />
           </li>
         </ul>
       </section>
-
-      <!-- Our team section -->
-      <section id="contacts">
-        <h2 class="roboto-titlumic">Our Team</h2>
-        <ul>
-          <li>
+      <!--section 3 description of team-->
+      <section class="section-three-container">
+        <h2 class="section-three-header">Our Team</h2>
+        <!--list of members of the team description-->
+        <ul class="sec-three-members-list list">
+          <!--first member-->
+          <li class="team-member-container">
             <img
+              class="team-member-image"
               src="./images/MarkGuerrero.jpg"
-              alt="Mark Guerrero"
+              alt="Product-designer"
               width="264"
               height="260"
             />
-            <h3 class="roboto-cincisute-poze">Mark Guerrero</h3>
-            <p class="roboto-patrusute-poze">Designer</p>
+            <h3 class="team-member-header">Mark Guerrero</h3>
+            <p class="team-member-description">Product Designer</p>
           </li>
-          <li>
+          <!--second member-->
+          <li class="team-member-container">
             <img
+              class="team-member-image"
               src="./images/TomFord.jpg"
-              alt="Tom Ford"
+              alt="Freontend-developper"
               width="264"
               height="260"
             />
-            <h3 class="roboto-cincisute-poze">Tom Ford</h3>
-            <p class="roboto-patrusute-poze">Frontend Developer</p>
+            <h3 class="team-member-header">Tom Ford</h3>
+            <p class="team-member-description">Frontend Developer</p>
           </li>
-          <li>
+          <!--third member-->
+          <li class="team-member-container">
             <img
+              class="team-member-image"
               src="./images/CamilaGarcia.jpg"
-              alt="Camila Garcia"
+              alt="Marketing"
               width="264"
               height="260"
             />
-            <h3 class="roboto-cincisute-poze">Camila Garcia</h3>
-            <p class="roboto-patrusute-poze">Marketing</p>
+            <h3 class="team-member-header">Camila Garcia</h3>
+            <p class="team-member-description">Marketing</p>
           </li>
-          <li>
+          <!--fourth member-->
+          <li class="team-member-container">
             <img
+              class="team-member-image"
               src="./images/DanielWilson.jpg"
-              alt="Daniel Wilson"
+              alt="UI-designer"
               width="264"
               height="260"
             />
-            <h3 class="roboto-cincisute-poze">Daniel Wilson</h3>
-            <p class="roboto-patrusute-poze">UI Designer</p>
+            <h3 class="team-member-header">Daniel Wilson</h3>
+            <p class="team-member-description">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-
-    <!-- Footer -->
-    <footer>
-      <a href="./index.html" class="logo link list"
-        >Web<span class="logo-dark-header">Studio</span></a
+    <footer class="footer-container">
+      <a class="logo link" href="./index.html"
+        >Web<span class="logo-span-dark-footer">Studio</span></a
       >
-      <p class="footer list">
+      <p class="footer-additional-description">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>

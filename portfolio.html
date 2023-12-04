@@ -3,250 +3,195 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Effective Solutions for Your Business" />
-    <meta name="keywords" content="Solutions, Business, Efficiency, Strategy" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Web Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
   </head>
-  <body class="body">
+  <body>
     <header>
-      <!-- Navigation -->
-      <nav>
-        <!-- Logo -->
-        <a href="./index.html" class="logo link list"
-          >Web<span class="logo-dark-header">Studio</span></a
+      <!--navigation bar-->
+      <nav class="main-navigation-container">
+        <!--Logo-->
+        <a class="logo link" href="./index.html"
+          >Web<span class="logo-span-dark-header">Studio</span></a
         >
-        <ul>
+        <!--studio,portfolio,contacts-->
+        <ul class="navigation-list list">
+          <li><a class="nav-link link" href="./index.html">Studio</a></li>
           <li>
-            <a
-              class="roboto-cincisute-portfolio upper-case link"
-              href="./index.html"
-              >Studio</a
-            >
+            <a class="nav-link link" href="./portfolio.html">Portfolio</a>
           </li>
-          <li>
-            <a
-              class="roboto-cincisute-portfolio upper-case link"
-              href="./porfolio.html"
-              >Portfolio</a
-            >
-          </li>
-          <li>
-            <a
-              class="roboto-cincisute-portfolio upper-case link"
-              href="./contacts.html"
-              >Contacts</a
-            >
-          </li>
+          <li><a class="nav-link link" href="">Contacts</a></li>
         </ul>
       </nav>
-      <!-- Address contacts -->
-      <address>
-        <ul>
+      <!--contact address section-->
+      <address class="address-container">
+        <ul class="address-list list">
           <li>
-            <a
-              class="roboto-patrusute-portfolio link"
-              href="mailto:info@devstudio.com"
+            <a class="address-link link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="roboto-patrusute-portfolio link" href="tel:+110001111111"
+            <a class="address-link link" href="tel:+110001111111"
               >+11 (000) 111-11-11</a
             >
           </li>
         </ul>
       </address>
     </header>
-
-    <main>
-      <section>
-        <!-- Hero section -->
-        <ul>
+    <main class="main-container-portfolio">
+      <!--buttons section-->
+      <section class="section-one-container">
+        <h1 hidden>Buttons</h1>
+        <ul class="sec-one-list-of-buttons list">
+          <!--firts button-->
+          <li><button class="sec-one-button" type="button">All</button></li>
+          <!--second button-->
           <li>
-            <button class="button-all link list" type="button">ALL</button>
+            <button class="sec-one-button" type="button">Web Site</button>
           </li>
+          <!--third button-->
+          <li><button class="sec-one-button" type="button">App</button></li>
+          <!--fourth button-->
+          <li><button class="sec-one-button" type="button">Design</button></li>
+          <!--fifth button-->
           <li>
-            <button class="roboto-button link list" type="button">
-              Web Site
-            </button>
-          </li>
-          <li>
-            <button class="roboto-button link list" type="button">App</button>
-          </li>
-          <li>
-            <button class="roboto-button link list" type="button">
-              Design
-            </button>
-          </li>
-          <li>
-            <button class="roboto-button link list" type="button">
-              Marketing
-            </button>
+            <button class="sec-one-button" type="button">Marketing</button>
           </li>
         </ul>
-
-        <!-- First Photos Section -->
-        <ul>
-          <li>
-            <a href="www.">
+        <!--list of portfolio projects-->
+        <ul class="list-of-projects-sec-two list">
+          <!--first item-->
+          <li class="project-container">
+            <a class="project-link link" href="">
               <img
-                src="images/ba.jpg"
-                alt="Banking App Interface Concept"
+                class="project-image"
+                src="./images/ba.jpg"
+                alt="App-interface "
                 width="360"
-                height="300"
               />
-              <h3 class="roboto-cincisute-portfolio link">
-                Banking App Interface Concept
-              </h3>
-              <p class="roboto-patrusute-portfolio">App</p>
+              <h2 class="project-header">Banking App Interface Concept</h2>
+              <p class="project-description">App</p>
             </a>
           </li>
-          <li>
-            <a href="www.">
+          <!--second item-->
+          <li class="project-container">
+            <a class="project-link link" href="">
               <img
-                src="images/cp.jpg"
-                alt="Cashless Payment"
+                class="project-image"
+                src="./images/cp.jpg"
+                alt="Payment method"
                 width="360"
-                height="300"
               />
-              <h3 class="roboto-cincisute-portfolio link">Cashless Payment</h3>
-              <p class="roboto-patrusute-portfolio">Marketing</p>
+              <h2 class="project-header">Cashless Payment</h2>
+              <p class="project-description">Marketing</p>
             </a>
           </li>
-          <li>
-            <a href="www.">
+          <!--third item-->
+          <li class="project-container">
+            <a class="project-link link" href="">
               <img
-                src="images/ma.jpg"
-                alt="Meditation App"
+                class="project-image"
+                src="./images/ma.jpg"
+                alt="App Laptop"
                 width="360"
-                height="300"
               />
-              <h3 class="roboto-cincisute-portfolio link">Meditation App</h3>
-              <p class="roboto-patrusute-portfolio">App</p>
+              <h2 class="project-header">Meditation App</h2>
+              <p class="project-description">App</p>
             </a>
           </li>
-
-          <!-- Second Photos Section -->
-          <li>
-            <a href="www.">
+          <!--fourth item-->
+          <li class="project-container">
+            <a class="project-link link" href="">
               <img
-                src="images/ts.jpg"
-                alt="Taxi Service"
+                class="project-image"
+                src="./images/ts.jpg"
+                alt="Drive and navigation"
                 width="360"
-                height="300"
               />
-              <h3 class="roboto-cincisute-portfolio link">Taxi Service</h3>
-              <p class="roboto-patrusute-portfolio">Marketing</p>
+              <h2 class="project-header">Taxi Service</h2>
+              <p class="project-description">Marketing</p>
             </a>
           </li>
-          <li>
-            <a href="wwww.">
+          <!--fifth item-->
+          <li class="project-container">
+            <a class="project-link link" href="">
               <img
-                src="images/si.jpg"
-                alt="Screen Illustrations"
+                class="project-image"
+                src="./images/si.jpg"
+                alt="Walpapper"
                 width="360"
-                height="300"
               />
-              <h3 class="roboto-cincisute-portfolio link">
-                Screen Illustrations
-              </h3>
-              <p class="roboto-patrusute-portfolio">Design</p>
+              <h2 class="project-header">Screen Illustrations</h2>
+              <p class="project-description">Design</p>
             </a>
           </li>
-          <li>
-            <a href="wwww.">
+          <!--sixth item-->
+          <li class="project-container">
+            <a class="project-link link" href="">
               <img
-                src="images/os.jpg"
-                alt="Online Courses"
+                class="project-image"
+                src="./images/os.jpg"
+                alt="Online on the street"
                 width="360"
-                height="300"
               />
-              <h3 class="roboto-cincisute-portfolio link">Online Courses</h3>
-              <p class="roboto-patrusute-portfolio">Marketing</p>
+              <h2 class="project-header">Online Courses</h2>
+              <p class="project-description">Marketing</p>
             </a>
           </li>
-
-          <!-- Third Photos Section -->
-          <li>
-            <a href="wwww.">
+          <!--seventh item-->
+          <li class="project-container">
+            <a class="project-link link" href="">
               <img
-                src="images/is.jpg"
-                alt="Instagram Stories Concept"
+                class="project-image"
+                src="./images/is.jpg"
+                alt="Instastory"
                 width="360"
-                height="300"
               />
-              <h3 class="roboto-cincisute-portfolio link">
-                Instagram Stories Concept
-              </h3>
-              <p class="roboto-patrusute-portfolio">Design</p>
+              <h2 class="project-header">Instagram Stories Concept</h2>
+              <p class="project-description">Design</p>
             </a>
           </li>
-          <li>
-            <a href="www.">
+          <!--eight item-->
+          <li class="project-container">
+            <a class="project-link link" href="">
               <img
-                src="images/of.jpg"
-                alt="Organic Food"
+                class="project-image"
+                src="./images/of.jpg"
+                alt="Bio food"
                 width="360"
-                height="300"
               />
-              <h3 class="roboto-cincisute-portfolio link">Organic Food</h3>
-              <p class="roboto-patrusute-portfolio">Web Site</p>
+              <h2 class="project-header">Organic Food</h2>
+              <p class="project-description">Web Site</p>
             </a>
           </li>
-          <li>
-            <a href="www.">
+          <!--ninth item-->
+          <li class="project-container">
+            <a class="project-link link" href="">
               <img
-                src="images/fc.jpg"
-                alt="Fresh Coffee"
+                class="project-image"
+                src="./images/fc.jpg"
+                alt="Coffe"
                 width="360"
-                height="300"
               />
-              <h3 class="roboto-cincisute-portfolio link">Fresh Coffee</h3>
-              <p class="roboto-patrusute-portfolio">Web Site</p>
+              <h2 class="project-header">Fresh Coffee</h2>
+              <p class="project-description">Web Site</p>
             </a>
           </li>
         </ul>
       </section>
     </main>
-
-    <!-- Footer -->
-    <footer>
-      <a href="./index.html" class="logo link list"
-        >Web<span class="logo-dark-header">Studio</span></a
+    <footer class="footer-container">
+      <a class="logo link" href="./index.html"
+        >Web<span class="logo-span-dark-footer">Studio</span></a
       >
-      <p class="footer list">
+      <p class="footer-additional-description">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
